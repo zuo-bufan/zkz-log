@@ -1,0 +1,29 @@
+{
+	"name": "zkz-log",
+	"version": "1.0.2",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "webpack"
+	},
+	"keywords": [
+		"console",
+		"snine",
+		"log"
+	],
+	"author": "zkz",
+	"license": "ISC",
+	"repository": {
+	  "type": "git",
+	  "url": "xxxxxxx"
+	},
+	"description": "这是一个打印包，可以在控制台上打印彩色标签，帮助您快速定位日志信息。",
+	"devDependencies": {
+		"terser-webpack-plugin": "^4.2.0",
+		"webpack": "^4.44.0",
+		"webpack-cli": "^3.3.12"
+	},
+	"files": [
+		"dist"
+	]
+}
